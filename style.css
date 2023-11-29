@@ -1,0 +1,55 @@
+*{
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.Contenedor{
+  max-width: 350px;
+  height: 100vh;
+  max-height: 600px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color:whitesmoke;
+    border : 3px solid black;
+    
+  
+}
+h1{
+  text-align: center;
+  font-size: 45px;
+  padding: 20px;
+  
+}
+
+#Resultado{
+text-align: center;
+  
+}
+
+#Resultado img{
+width: 80px;
+
+}
+  
+#start-text{
+font-size: 25px;
+padding: 20px;
+
+}
+
+#Botones{
+display: flex;
+  width: 100%;
+  
+}
+
+#Botones > button > img{
+width: 100%;
+  
+}
